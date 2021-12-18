@@ -1,5 +1,3 @@
-# docker network create jenkins
-
 docker stop jenkins-docker && docker rm jenkins-docker
 
 docker container run --name jenkins-docker \
